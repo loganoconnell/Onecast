@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F194F351B370AED00936F3D /* Weather Backgrounds in Resources */ = {isa = PBXBuildFile; fileRef = 6F194F341B370AED00936F3D /* Weather Backgrounds */; };
+		6F2209871B34BB5D003F9D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2209861B34BB5D003F9D96 /* main.m */; };
+		6F22098A1B34BB5D003F9D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2209891B34BB5D003F9D96 /* AppDelegate.m */; };
+		6F22098D1B34BB5D003F9D96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F22098C1B34BB5D003F9D96 /* ViewController.m */; };
+		6F2209901B34BB5D003F9D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F22098E1B34BB5D003F9D96 /* Main.storyboard */; };
+		6F2209921B34BB5D003F9D96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2209911B34BB5D003F9D96 /* Images.xcassets */; };
+		6F2209951B34BB5D003F9D96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F2209931B34BB5D003F9D96 /* LaunchScreen.xib */; };
+		6F2209A11B34BB5D003F9D96 /* OnecastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2209A01B34BB5D003F9D96 /* OnecastTests.m */; };
+		6F2209AE1B34C8DF003F9D96 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2209AD1B34C8DF003F9D96 /* Manager.m */; };
+		6F2209B11B34C901003F9D96 /* Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2209B01B34C901003F9D96 /* Condition.m */; };
+		6F2209B41B34C92A003F9D96 /* DailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2209B31B34C92A003F9D96 /* DailyForecast.m */; };
+		6F387AB01B40560A00B2851F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F93B5BA1B3F6FFC0081B8D0 /* NotificationCenter.framework */; };
+		6F387AB61B40560A00B2851F /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F387AB51B40560A00B2851F /* TodayViewController.m */; };
+		6F387AB81B40560A00B2851F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F387AB71B40560A00B2851F /* MainInterface.storyboard */; };
+		6F387ABB1B40560A00B2851F /* Onecast-Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F387AAF1B40560A00B2851F /* Onecast-Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6FC421F51B34EBD1004049CE /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC421F41B34EBD1004049CE /* Client.m */; };
+		6FC422271B3504CD004049CE /* Weather Icons in Resources */ = {isa = PBXBuildFile; fileRef = 6FC422261B3504CD004049CE /* Weather Icons */; };
+		B2F2C68BD3F8503C42C1F0E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B3913D1F48240B190AA106 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F22099B1B34BB5D003F9D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2209791B34BB5C003F9D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F2209801B34BB5C003F9D96;
+			remoteInfo = Onecast;
+		};
+		6F387AB91B40560A00B2851F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2209791B34BB5C003F9D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F387AAE1B40560A00B2851F;
+			remoteInfo = "Onecast-Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F93B5CA1B3F6FFD0081B8D0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6F387ABB1B40560A00B2851F /* Onecast-Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AD2D75F0FE234BAB3B5CDD4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		432F4EC8D9859FBB016B78EA /* libPods-Onecast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Onecast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F194F341B370AED00936F3D /* Weather Backgrounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Weather Backgrounds"; sourceTree = "<group>"; };
+		6F2209811B34BB5D003F9D96 /* Onecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2209851B34BB5D003F9D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2209861B34BB5D003F9D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F2209881B34BB5D003F9D96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F2209891B34BB5D003F9D96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F22098B1B34BB5D003F9D96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F22098C1B34BB5D003F9D96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F22098F1B34BB5D003F9D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F2209911B34BB5D003F9D96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F2209941B34BB5D003F9D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6F22099A1B34BB5D003F9D96 /* OnecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F22099F1B34BB5D003F9D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2209A01B34BB5D003F9D96 /* OnecastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnecastTests.m; sourceTree = "<group>"; };
+		6F2209AC1B34C8DF003F9D96 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		6F2209AD1B34C8DF003F9D96 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		6F2209AF1B34C901003F9D96 /* Condition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Condition.h; sourceTree = "<group>"; };
+		6F2209B01B34C901003F9D96 /* Condition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Condition.m; sourceTree = "<group>"; };
+		6F2209B21B34C92A003F9D96 /* DailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyForecast.h; sourceTree = "<group>"; };
+		6F2209B31B34C92A003F9D96 /* DailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyForecast.m; sourceTree = "<group>"; };
+		6F387AA91B403D1D00B2851F /* Onecast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Onecast.entitlements; sourceTree = "<group>"; };
+		6F387AAF1B40560A00B2851F /* Onecast-Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Onecast-Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F387AB31B40560A00B2851F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F387AB41B40560A00B2851F /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		6F387AB51B40560A00B2851F /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		6F387AB71B40560A00B2851F /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		6F387ABF1B40564000B2851F /* Onecast-Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Onecast-Widget.entitlements"; sourceTree = "<group>"; };
+		6F93B5BA1B3F6FFC0081B8D0 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		6FC421F31B34EBD1004049CE /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		6FC421F41B34EBD1004049CE /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		6FC422261B3504CD004049CE /* Weather Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Weather Icons"; sourceTree = "<group>"; };
+		B7B3913D1F48240B190AA106 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7E0AB5F5F5C2077B46A706 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F22097E1B34BB5C003F9D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F2C68BD3F8503C42C1F0E8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2209971B34BB5D003F9D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F387AAC1B40560A00B2851F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F387AB01B40560A00B2851F /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C36CAD198B8440698DC324F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7B3913D1F48240B190AA106 /* libPods.a */,
+				6F93B5BA1B3F6FFC0081B8D0 /* NotificationCenter.framework */,
+				432F4EC8D9859FBB016B78EA /* libPods-Onecast.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F2209781B34BB5C003F9D96 = {
+			isa = PBXGroup;
+			children = (
+				6F2209831B34BB5D003F9D96 /* Onecast */,
+				6F22099D1B34BB5D003F9D96 /* OnecastTests */,
+				6F387AB11B40560A00B2851F /* Onecast-Widget */,
+				6F2209821B34BB5D003F9D96 /* Products */,
+				FDBD39AD9A0E9AF5CAA86821 /* Pods */,
+				1C36CAD198B8440698DC324F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F2209821B34BB5D003F9D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F2209811B34BB5D003F9D96 /* Onecast.app */,
+				6F22099A1B34BB5D003F9D96 /* OnecastTests.xctest */,
+				6F387AAF1B40560A00B2851F /* Onecast-Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F2209831B34BB5D003F9D96 /* Onecast */ = {
+			isa = PBXGroup;
+			children = (
+				6F387AA91B403D1D00B2851F /* Onecast.entitlements */,
+				6F2209881B34BB5D003F9D96 /* AppDelegate.h */,
+				6F2209891B34BB5D003F9D96 /* AppDelegate.m */,
+				6F22098B1B34BB5D003F9D96 /* ViewController.h */,
+				6F22098C1B34BB5D003F9D96 /* ViewController.m */,
+				6F2209AC1B34C8DF003F9D96 /* Manager.h */,
+				6F2209AD1B34C8DF003F9D96 /* Manager.m */,
+				6F2209AF1B34C901003F9D96 /* Condition.h */,
+				6F2209B01B34C901003F9D96 /* Condition.m */,
+				6F2209B21B34C92A003F9D96 /* DailyForecast.h */,
+				6F2209B31B34C92A003F9D96 /* DailyForecast.m */,
+				6FC421F31B34EBD1004049CE /* Client.h */,
+				6FC421F41B34EBD1004049CE /* Client.m */,
+				6F194F341B370AED00936F3D /* Weather Backgrounds */,
+				6FC422261B3504CD004049CE /* Weather Icons */,
+				6F22098E1B34BB5D003F9D96 /* Main.storyboard */,
+				6F2209911B34BB5D003F9D96 /* Images.xcassets */,
+				6F2209931B34BB5D003F9D96 /* LaunchScreen.xib */,
+				6F2209841B34BB5D003F9D96 /* Supporting Files */,
+			);
+			path = Onecast;
+			sourceTree = "<group>";
+		};
+		6F2209841B34BB5D003F9D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F2209851B34BB5D003F9D96 /* Info.plist */,
+				6F2209861B34BB5D003F9D96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F22099D1B34BB5D003F9D96 /* OnecastTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F2209A01B34BB5D003F9D96 /* OnecastTests.m */,
+				6F22099E1B34BB5D003F9D96 /* Supporting Files */,
+			);
+			path = OnecastTests;
+			sourceTree = "<group>";
+		};
+		6F22099E1B34BB5D003F9D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F22099F1B34BB5D003F9D96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F387AB11B40560A00B2851F /* Onecast-Widget */ = {
+			isa = PBXGroup;
+			children = (
+				6F387ABF1B40564000B2851F /* Onecast-Widget.entitlements */,
+				6F387AB41B40560A00B2851F /* TodayViewController.h */,
+				6F387AB51B40560A00B2851F /* TodayViewController.m */,
+				6F387AB71B40560A00B2851F /* MainInterface.storyboard */,
+				6F387AB21B40560A00B2851F /* Supporting Files */,
+			);
+			path = "Onecast-Widget";
+			sourceTree = "<group>";
+		};
+		6F387AB21B40560A00B2851F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F387AB31B40560A00B2851F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDBD39AD9A0E9AF5CAA86821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AD2D75F0FE234BAB3B5CDD4 /* Pods.debug.xcconfig */,
+				CF7E0AB5F5F5C2077B46A706 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F2209801B34BB5C003F9D96 /* Onecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2209A41B34BB5D003F9D96 /* Build configuration list for PBXNativeTarget "Onecast" */;
+			buildPhases = (
+				7F50F437803D24C739A4BE0E /* Check Pods Manifest.lock */,
+				6F22097D1B34BB5C003F9D96 /* Sources */,
+				6F22097E1B34BB5C003F9D96 /* Frameworks */,
+				6F22097F1B34BB5C003F9D96 /* Resources */,
+				43A34C8439BAE39907E2E319 /* Copy Pods Resources */,
+				6F93B5CA1B3F6FFD0081B8D0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F387ABA1B40560A00B2851F /* PBXTargetDependency */,
+			);
+			name = Onecast;
+			productName = Onecast;
+			productReference = 6F2209811B34BB5D003F9D96 /* Onecast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F2209991B34BB5D003F9D96 /* OnecastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2209A71B34BB5D003F9D96 /* Build configuration list for PBXNativeTarget "OnecastTests" */;
+			buildPhases = (
+				6F2209961B34BB5D003F9D96 /* Sources */,
+				6F2209971B34BB5D003F9D96 /* Frameworks */,
+				6F2209981B34BB5D003F9D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F22099C1B34BB5D003F9D96 /* PBXTargetDependency */,
+			);
+			name = OnecastTests;
+			productName = OnecastTests;
+			productReference = 6F22099A1B34BB5D003F9D96 /* OnecastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F387AAE1B40560A00B2851F /* Onecast-Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F387ABC1B40560A00B2851F /* Build configuration list for PBXNativeTarget "Onecast-Widget" */;
+			buildPhases = (
+				6F387AAB1B40560A00B2851F /* Sources */,
+				6F387AAC1B40560A00B2851F /* Frameworks */,
+				6F387AAD1B40560A00B2851F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Onecast-Widget";
+			productName = "Onecast-Widget";
+			productReference = 6F387AAF1B40560A00B2851F /* Onecast-Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F2209791B34BB5C003F9D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Logan O'Connell";
+				TargetAttributes = {
+					6F2209801B34BB5C003F9D96 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 5PKRN6WZ48;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					6F2209991B34BB5D003F9D96 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6F2209801B34BB5C003F9D96;
+					};
+					6F387AAE1B40560A00B2851F = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 5PKRN6WZ48;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6F22097C1B34BB5C003F9D96 /* Build configuration list for PBXProject "Onecast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F2209781B34BB5C003F9D96;
+			productRefGroup = 6F2209821B34BB5D003F9D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F2209801B34BB5C003F9D96 /* Onecast */,
+				6F2209991B34BB5D003F9D96 /* OnecastTests */,
+				6F387AAE1B40560A00B2851F /* Onecast-Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F22097F1B34BB5C003F9D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC422271B3504CD004049CE /* Weather Icons in Resources */,
+				6F2209901B34BB5D003F9D96 /* Main.storyboard in Resources */,
+				6F2209951B34BB5D003F9D96 /* LaunchScreen.xib in Resources */,
+				6F2209921B34BB5D003F9D96 /* Images.xcassets in Resources */,
+				6F194F351B370AED00936F3D /* Weather Backgrounds in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2209981B34BB5D003F9D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F387AAD1B40560A00B2851F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F387AB81B40560A00B2851F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43A34C8439BAE39907E2E319 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F50F437803D24C739A4BE0E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F22097D1B34BB5C003F9D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F22098D1B34BB5D003F9D96 /* ViewController.m in Sources */,
+				6F22098A1B34BB5D003F9D96 /* AppDelegate.m in Sources */,
+				6F2209871B34BB5D003F9D96 /* main.m in Sources */,
+				6F2209AE1B34C8DF003F9D96 /* Manager.m in Sources */,
+				6F2209B41B34C92A003F9D96 /* DailyForecast.m in Sources */,
+				6F2209B11B34C901003F9D96 /* Condition.m in Sources */,
+				6FC421F51B34EBD1004049CE /* Client.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2209961B34BB5D003F9D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2209A11B34BB5D003F9D96 /* OnecastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F387AAB1B40560A00B2851F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F387AB61B40560A00B2851F /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F22099C1B34BB5D003F9D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F2209801B34BB5C003F9D96 /* Onecast */;
+			targetProxy = 6F22099B1B34BB5D003F9D96 /* PBXContainerItemProxy */;
+		};
+		6F387ABA1B40560A00B2851F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F387AAE1B40560A00B2851F /* Onecast-Widget */;
+			targetProxy = 6F387AB91B40560A00B2851F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F22098E1B34BB5D003F9D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F22098F1B34BB5D003F9D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F2209931B34BB5D003F9D96 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2209941B34BB5D003F9D96 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F2209A21B34BB5D003F9D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F2209A31B34BB5D003F9D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F2209A51B34BB5D003F9D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD2D75F0FE234BAB3B5CDD4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Onecast/Onecast.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Onecast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6F2209A61B34BB5D003F9D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF7E0AB5F5F5C2077B46A706 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Onecast/Onecast.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Onecast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		6F2209A81B34BB5D003F9D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OnecastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Onecast.app/Onecast";
+			};
+			name = Debug;
+		};
+		6F2209A91B34BB5D003F9D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OnecastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Onecast.app/Onecast";
+			};
+			name = Release;
+		};
+		6F387ABD1B40560A00B2851F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Onecast-Widget/Onecast-Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Onecast-Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6F387ABE1B40560A00B2851F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Onecast-Widget/Onecast-Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Onecast-Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F22097C1B34BB5C003F9D96 /* Build configuration list for PBXProject "Onecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2209A21B34BB5D003F9D96 /* Debug */,
+				6F2209A31B34BB5D003F9D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2209A41B34BB5D003F9D96 /* Build configuration list for PBXNativeTarget "Onecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2209A51B34BB5D003F9D96 /* Debug */,
+				6F2209A61B34BB5D003F9D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2209A71B34BB5D003F9D96 /* Build configuration list for PBXNativeTarget "OnecastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2209A81B34BB5D003F9D96 /* Debug */,
+				6F2209A91B34BB5D003F9D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F387ABC1B40560A00B2851F /* Build configuration list for PBXNativeTarget "Onecast-Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F387ABD1B40560A00B2851F /* Debug */,
+				6F387ABE1B40560A00B2851F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F2209791B34BB5C003F9D96 /* Project object */;
+}

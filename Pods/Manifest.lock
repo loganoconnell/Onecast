@@ -1,0 +1,32 @@
+PODS:
+  - EAIntroView (2.7.4):
+    - EARestrictedScrollView (~> 0.2.0)
+  - EARestrictedScrollView (0.2.0)
+  - HexColors (2.2.1)
+  - Mantle (1.3.1):
+    - Mantle/extobjc (= 1.3.1)
+  - Mantle/extobjc (1.3.1)
+  - ReactiveCocoa (2.1.6):
+    - ReactiveCocoa/Core (= 2.1.6)
+    - ReactiveCocoa/no-arc (= 2.1.6)
+  - ReactiveCocoa/Core (2.1.6):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.6)
+  - TSMessages (0.9.12):
+    - HexColors
+
+DEPENDENCIES:
+  - EAIntroView
+  - Mantle (= 1.3.1)
+  - ReactiveCocoa (= 2.1.6)
+  - TSMessages
+
+SPEC CHECKSUMS:
+  EAIntroView: 50b85eedf414260e61330070ffe5947e72493a62
+  EARestrictedScrollView: f86d61e16c61d3e93c84f8e96e83122a2a3b7631
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  Mantle: a516570b84c3cefb34b02647a6588a087dddc490
+  ReactiveCocoa: 8e05fc231bce82d24f310957a85ee74df16a1653
+  TSMessages: 2a52642128d7ab15b46930c810b9c9403a2b58f3
+
+COCOAPODS: 0.37.2
